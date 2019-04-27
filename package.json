@@ -1,0 +1,23 @@
+{
+  "name": "format-generator",
+  "version": "1.0.0",
+  "description": "Generador de formatos para el colegio",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o -w",
+    "watch": "babel -w ./src -d dist/",
+    "build": "babel ./src -d dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "docxtemplater": "^3.10.1",
+    "moment": "^2.24.0"
+  }
+}
